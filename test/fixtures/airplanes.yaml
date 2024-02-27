@@ -1,0 +1,17 @@
+weight_balance:
+  C-FGNO:
+    weight: 1412.66
+    arm: 38.80
+    moment: 54816.30
+  C-FTNO:
+    weight: 1474.90
+    arm: 36.77
+    moment: 54236.70
+  C-GGNO:
+    weight: 1413.10
+    arm: 38.58
+    moment: 54515.00
+  C-GTNO:
+    weight: 1433.00
+    arm: 38.75
+    moment: 55528.75
