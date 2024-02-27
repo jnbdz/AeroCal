@@ -1,0 +1,128 @@
+# Weight is in pounds (lbs)
+# You are required to have a max, min and formula
+cessna:
+  172:
+    carburetor_icing:
+      temperature:
+        max: 40
+        min: 20
+      dew_point:
+        max: 30
+        min: 20
+      area_cut_off:
+        p1:
+          x: 0
+          y: 0
+          c: p2
+        p2:
+          x: 30
+          y: 30
+          c: p1
+      relative_humidity_constant:
+        100:
+          p1:
+            x: 0
+            y: 0
+            c: p2
+          p2:
+            x: 30
+            y: 30
+            c: p1
+        80:
+          p1:
+            x: 0
+            y: 0
+            c: p2
+          p2:
+            x: 30
+            y: 30
+            c: p1
+        60:
+          p1:
+            x: 0
+            y: 0
+            c: p2
+          p2:
+            x: 30
+            y: 30
+            c: p1
+        40:
+          p1:
+            x: 0
+            y: 0
+            c: p2
+          p2:
+            x: 30
+            y: 30
+            c: p1
+        20:
+          p1:
+            x: 0
+            y: 0
+            c: p2
+          p2:
+            x: 30
+            y: 30
+            c: p1
+    weight_balance:
+      land:
+        loading_graph:
+          front_passenger:
+            max: 400
+            min: 0
+            formula:
+          fuel:
+            max:
+            min: 0
+            formula:
+          rear_passengers:
+            max: 400
+            min: 0
+            formula:
+          baggage_or_passenger_on_child_seat:
+            max: 120
+            min: 0
+            formula:
+        center_of_gravity_moment_envelope:
+          utility:
+            p1:
+              x: 52000
+              y: 0
+              c: p3, p2
+            p2:
+              x: 71000
+              y: 0
+              c: p1, p5
+            p3:
+              x: 67000
+              y: 1960
+              c: p1, p4
+            p4:
+              x: 88000
+              y: 2300
+              c:
+            p5:
+              x: 109000
+              y: 2300
+              c: p2,
+          normal:
+            p1:
+              x: 52000
+              y: 0
+              c: p3, p2
+            p2:
+              x: 71000
+              y: 0
+              c: p1, p5
+            p3:
+              x: 67000
+              y: 1960
+              c: p1, p4
+            p4:
+              x: 88000
+              y: 2300
+              c:
+            p5:
+              x: 109000
+              y: 2300
+              c: p2,

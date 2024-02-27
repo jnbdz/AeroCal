@@ -1,0 +1,13 @@
+standard_weights:
+  men:
+    summer: 206
+    winter: 212
+  women:
+    summer: 175
+    winter: 181
+  children_2-12:
+    summer: 75
+    winter: 75
+  children_0-2:
+    summer: 30
+    winter: 30
