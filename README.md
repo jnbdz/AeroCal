@@ -7,4 +7,6 @@ areocal --help
 ```
 
 ## Help
-- `--carburetor-icing`
+- `-c`, `--carburetor-icing` - For calculating carburetor icing probability
+- `-w`, `--crosswind` - For calculating the crosswind
+- `-b`, `--weight-balance` - for calculating the weight and balance
