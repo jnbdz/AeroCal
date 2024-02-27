@@ -1,7 +1,7 @@
-# AeroCal
+# AeroCal :small_airplane:
 Aviation calculator (e.g.: Carburetor Icing Probability Calculator) - Terminal application
 
-## Quicstart
+## Quickstart
 ```bash
 areocal --help
 ```
