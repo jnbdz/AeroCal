@@ -1,0 +1,62 @@
+maximum_rate_of_climb_data:
+  conditions:
+    - altitude: sea_level
+      temperature: 59F
+      weights:
+        - gross_weight_lbs: 1700
+          rate_of_climb_ft_per_min: 1085
+          ias_mph: 83
+          rate_from_climb_ft_per_min_used: 640
+        - gross_weight_lbs: 2000
+          rate_of_climb_ft_per_min: 865
+          ias_mph: 83
+          rate_from_climb_ft_per_min_used: 645
+        - gross_weight_lbs: 2300
+          rate_of_climb_ft_per_min: 645
+          ias_mph: 83
+          rate_from_climb_ft_per_min_used: 645
+    - altitude: 5000_ft
+      temperature: 41F
+      weights:
+        - gross_weight_lbs: 1700
+          rate_of_climb_ft_per_min: 825
+          ias_mph: 77
+          rate_from_climb_ft_per_min_used: 580
+        - gross_weight_lbs: 2000
+          rate_of_climb_ft_per_min: 625
+          ias_mph: 77
+          rate_from_climb_ft_per_min_used: 580
+        - gross_weight_lbs: 2300
+          rate_of_climb_ft_per_min: 435
+          ias_mph: 77
+          rate_from_climb_ft_per_min_used: 580
+    - altitude: 10000_ft
+      temperature: 23F
+      weights:
+        - gross_weight_lbs: 1700
+          rate_of_climb_ft_per_min: 570
+          ias_mph: 70
+          rate_from_climb_ft_per_min_used: 380
+        - gross_weight_lbs: 2000
+          rate_of_climb_ft_per_min: 380
+          ias_mph: 70
+          rate_from_climb_ft_per_min_used: 380
+        - gross_weight_lbs: 2300
+          rate_of_climb_ft_per_min: 230
+          ias_mph: 70
+          rate_from_climb_ft_per_min_used: 380
+    - altitude: 15000_ft
+      temperature: 5F
+      weights:
+        - gross_weight_lbs: 1700
+          rate_of_climb_ft_per_min: 315
+          ias_mph: 64
+          rate_from_climb_ft_per_min_used: 95
+        - gross_weight_lbs: 2000
+          rate_of_climb_ft_per_min: 135
+          ias_mph: 64
+          rate_from_climb_ft_per_min_used: 95
+        - gross_weight_lbs: 2300
+          rate_of_climb_ft_per_min: 55
+          ias_mph: 64
+          rate_from_climb_ft_per_min_used: 95

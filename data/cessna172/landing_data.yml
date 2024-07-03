@@ -1,0 +1,29 @@
+landing_data:
+  conditions:
+    - altitude: sea_level
+      temperature: 59F
+      gross_weight_lbs: 2300
+      approach_ias_mph: 70
+      total_to_clear_50ft_obs_ft: 1250
+      ground_roll_ft: 520
+    - altitude: 2500_ft
+      temperature: 50F
+      gross_weight_lbs: 2300
+      approach_ias_mph: 70
+      total_to_clear_50ft_obs_ft: 1310
+      ground_roll_ft: 605
+    - altitude: 5000_ft
+      temperature: 41F
+      gross_weight_lbs: 2300
+      approach_ias_mph: 70
+      total_to_clear_50ft_obs_ft: 1385
+      ground_roll_ft: 650
+    - altitude: 7500_ft
+      temperature: 32F
+      gross_weight_lbs: 2300
+      approach_ias_mph: 70
+      total_to_clear_50ft_obs_ft: 1455
+      ground_roll_ft: 650
+  notes:
+    - "Reduce landing distance 10% for each 5 knot headwind."
+    - "For operation on a dry grass runway, increase both ground roll and total to clear 50 ft obstacle by 20% of the total to clear 50 ft obstacle figure."
