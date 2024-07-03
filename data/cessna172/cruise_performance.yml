@@ -1,0 +1,345 @@
+cruise_performance_skyhawk:
+  gross_weight: 2300 Lbs
+  conditions:
+    standard: true
+    zero_wind: true
+    lean_mixture: true
+  note: "Maximum cruise is normally limited to 75% power. Cruise speeds for the standard Model 172 are 1 to 3 MPH lower than shown with the maximum difference occurring at higher powers."
+  fuel_capacity:
+    38_gal_no_reserve:
+      - altitude: 2500
+        rpm: 2700
+        bhp: 87
+        tas_mph: 139
+        gal_hour: 9.6
+        endurance_hours: 3.9
+        range_miles: 545
+      - altitude: 2500
+        rpm: 2600
+        bhp: 78
+        tas_mph: 133
+        gal_hour: 8.7
+        endurance_hours: 4.4
+        range_miles: 590
+      - altitude: 2500
+        rpm: 2500
+        bhp: 70
+        tas_mph: 128
+        gal_hour: 7.7
+        endurance_hours: 4.9
+        range_miles: 630
+      - altitude: 2500
+        rpm: 2400
+        bhp: 63
+        tas_mph: 122
+        gal_hour: 7.1
+        endurance_hours: 5.4
+        range_miles: 665
+      - altitude: 2500
+        rpm: 2300
+        bhp: 57
+        tas_mph: 116
+        gal_hour: 6.6
+        endurance_hours: 5.7
+        range_miles: 665
+      - altitude: 2500
+        rpm: 2200
+        bhp: 48
+        tas_mph: 107
+        gal_hour: 6.0
+        endurance_hours: 6.3
+        range_miles: 675
+      - altitude: 5000
+        rpm: 2700
+        bhp: 81
+        tas_mph: 138
+        gal_hour: 8.9
+        endurance_hours: 4.3
+        range_miles: 585
+      - altitude: 5000
+        rpm: 2600
+        bhp: 73
+        tas_mph: 133
+        gal_hour: 8.1
+        endurance_hours: 4.7
+        range_miles: 630
+      - altitude: 5000
+        rpm: 2500
+        bhp: 65
+        tas_mph: 128
+        gal_hour: 7.2
+        endurance_hours: 5.3
+        range_miles: 675
+      - altitude: 5000
+        rpm: 2400
+        bhp: 58
+        tas_mph: 122
+        gal_hour: 6.6
+        endurance_hours: 5.8
+        range_miles: 675
+      - altitude: 5000
+        rpm: 2300
+        bhp: 51
+        tas_mph: 112
+        gal_hour: 6.2
+        endurance_hours: 6.1
+        range_miles: 685
+      - altitude: 7500
+        rpm: 2700
+        bhp: 76
+        tas_mph: 138
+        gal_hour: 8.4
+        endurance_hours: 4.5
+        range_miles: 630
+      - altitude: 7500
+        rpm: 2600
+        bhp: 69
+        tas_mph: 133
+        gal_hour: 7.6
+        endurance_hours: 5.0
+        range_miles: 660
+      - altitude: 7500
+        rpm: 2500
+        bhp: 63
+        tas_mph: 126
+        gal_hour: 7.1
+        endurance_hours: 5.4
+        range_miles: 675
+      - altitude: 7500
+        rpm: 2400
+        bhp: 57
+        tas_mph: 119
+        gal_hour: 6.6
+        endurance_hours: 5.8
+        range_miles: 685
+      - altitude: 7500
+        rpm: 2300
+        bhp: 51
+        tas_mph: 112
+        gal_hour: 6.2
+        endurance_hours: 6.1
+        range_miles: 685
+      - altitude: 10000
+        rpm: 2700
+        bhp: 72
+        tas_mph: 138
+        gal_hour: 7.9
+        endurance_hours: 4.8
+        range_miles: 665
+      - altitude: 10000
+        rpm: 2600
+        bhp: 66
+        tas_mph: 131
+        gal_hour: 7.3
+        endurance_hours: 5.2
+        range_miles: 685
+      - altitude: 10000
+        rpm: 2500
+        bhp: 59
+        tas_mph: 124
+        gal_hour: 6.8
+        endurance_hours: 5.6
+        range_miles: 695
+      - altitude: 10000
+        rpm: 2400
+        bhp: 54
+        tas_mph: 117
+        gal_hour: 6.4
+        endurance_hours: 5.9
+        range_miles: 700
+      - altitude: 10000
+        rpm: 2300
+        bhp: 48
+        tas_mph: 110
+        gal_hour: 6.0
+        endurance_hours: 6.3
+        range_miles: 700
+      - altitude: 12500
+        rpm: 2650
+        bhp: 65
+        tas_mph: 132
+        gal_hour: 7.2
+        endurance_hours: 5.3
+        range_miles: 695
+      - altitude: 12500
+        rpm: 2500
+        bhp: 56
+        tas_mph: 122
+        gal_hour: 6.5
+        endurance_hours: 5.8
+        range_miles: 710
+      - altitude: 12500
+        rpm: 2400
+        bhp: 51
+        tas_mph: 115
+        gal_hour: 6.2
+        endurance_hours: 6.2
+        range_miles: 710
+    48_gal_no_reserve:
+      - altitude: 2500
+        rpm: 2700
+        bhp: 87
+        tas_mph: 139
+        gal_hour: 9.6
+        endurance_hours: 5.0
+        range_miles: 690
+      - altitude: 2500
+        rpm: 2600
+        bhp: 78
+        tas_mph: 133
+        gal_hour: 8.7
+        endurance_hours: 5.5
+        range_miles: 745
+      - altitude: 2500
+        rpm: 2500
+        bhp: 70
+        tas_mph: 128
+        gal_hour: 7.7
+        endurance_hours: 6.2
+        range_miles: 795
+      - altitude: 2500
+        rpm: 2400
+        bhp: 63
+        tas_mph: 122
+        gal_hour: 7.1
+        endurance_hours: 6.7
+        range_miles: 820
+      - altitude: 2500
+        rpm: 2300
+        bhp: 57
+        tas_mph: 116
+        gal_hour: 6.6
+        endurance_hours: 7.2
+        range_miles: 840
+      - altitude: 2500
+        rpm: 2200
+        bhp: 48
+        tas_mph: 107
+        gal_hour: 6.0
+        endurance_hours: 8.0
+        range_miles: 850
+      - altitude: 5000
+        rpm: 2700
+        bhp: 81
+        tas_mph: 138
+        gal_hour: 8.9
+        endurance_hours: 5.4
+        range_miles: 740
+      - altitude: 5000
+        rpm: 2600
+        bhp: 73
+        tas_mph: 133
+        gal_hour: 8.1
+        endurance_hours: 5.9
+        range_miles: 795
+      - altitude: 5000
+        rpm: 2500
+        bhp: 65
+        tas_mph: 128
+        gal_hour: 7.2
+        endurance_hours: 6.6
+        range_miles: 850
+      - altitude: 5000
+        rpm: 2400
+        bhp: 58
+        tas_mph: 122
+        gal_hour: 6.6
+        endurance_hours: 7.3
+        range_miles: 865
+      - altitude: 5000
+        rpm: 2300
+        bhp: 51
+        tas_mph:
+        endurance_hours: 7.8
+        range_miles: 865
+      - altitude: 7500
+        rpm: 2700
+        bhp: 76
+        tas_mph: 138
+        gal_hour: 8.4
+        endurance_hours: 5.7
+        range_miles: 795
+      - altitude: 7500
+        rpm: 2600
+        bhp: 69
+        tas_mph: 133
+        gal_hour: 7.6
+        endurance_hours: 6.3
+        range_miles: 835
+      - altitude: 7500
+        rpm: 2500
+        bhp: 63
+        tas_mph: 126
+        gal_hour: 7.1
+        endurance_hours: 6.8
+        range_miles: 850
+      - altitude: 7500
+        rpm: 2400
+        bhp: 57
+        tas_mph: 119
+        gal_hour: 6.6
+        endurance_hours: 7.3
+        range_miles: 865
+      - altitude: 7500
+        rpm: 2300
+        bhp: 51
+        tas_mph: 112
+        gal_hour: 6.2
+        endurance_hours: 7.8
+        range_miles: 865
+      - altitude: 10000
+        rpm: 2700
+        bhp: 72
+        tas_mph: 138
+        gal_hour: 7.9
+        endurance_hours: 6.1
+        range_miles: 840
+      - altitude: 10000
+        rpm: 2600
+        bhp: 66
+        tas_mph: 131
+        gal_hour: 7.3
+        endurance_hours: 6.6
+        range_miles: 860
+      - altitude: 10000
+        rpm: 2500
+        bhp: 59
+        tas_mph: 124
+        gal_hour: 6.8
+        endurance_hours: 7.1
+        range_miles: 875
+      - altitude: 10000
+        rpm: 2400
+        bhp: 54
+        tas_mph: 117
+        gal_hour: 6.4
+        endurance_hours: 7.5
+        range_miles: 880
+      - altitude: 10000
+        rpm: 2300
+        bhp: 48
+        tas_mph: 110
+        gal_hour: 6.0
+        endurance_hours: 8.0
+        range_miles: 880
+      - altitude: 12500
+        rpm: 2650
+        bhp: 65
+        tas_mph: 132
+        gal_hour: 7.2
+        endurance_hours: 6.6
+        range_miles: 880
+      - altitude: 12500
+        rpm: 2500
+        bhp: 56
+        tas_mph: 122
+        gal_hour: 6.5
+        endurance_hours: 7.3
+        range_miles: 895
+      - altitude: 12500
+        rpm: 2400
+        bhp: 51
+        tas_mph: 115
+        gal_hour: 6.2
+        endurance_hours: 7.8
+        range_miles: 895

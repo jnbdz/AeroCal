@@ -1,0 +1,31 @@
+stall_speeds_mph_cas:
+  2300_LBS_GROSS_WEIGHT:
+    POWER_OFF:
+      AFT_CG:
+        FLAPS_UP:
+          - angle_of_bank: 0
+            speed: 57
+          - angle_of_bank: 20
+            speed: 59
+          - angle_of_bank: 40
+            speed: 65
+          - angle_of_bank: 60
+            speed: 81
+        FLAPS_10:
+          - angle_of_bank: 0
+            speed: 52
+          - angle_of_bank: 20
+            speed: 54
+          - angle_of_bank: 40
+            speed: 59
+          - angle_of_bank: 60
+            speed: 74
+        FLAPS_40:
+          - angle_of_bank: 0
+            speed: 49
+          - angle_of_bank: 20
+            speed: 51
+          - angle_of_bank: 40
+            speed: 56
+          - angle_of_bank: 60
+            speed: 69

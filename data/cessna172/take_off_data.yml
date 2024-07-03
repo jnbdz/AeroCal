@@ -1,0 +1,36 @@
+take_off_data:
+  conditions:
+    - altitude: sea_level
+      temperature: 59F
+      weights:
+        - gross_weight_lbs: 1700
+          head_wind_knots: [0, 10, 20]
+          ground_run_ft: [865, 695, 595]
+          total_to_clear_50ft_obs_ft: [1535, 1255, 1065]
+        - gross_weight_lbs: 2000
+          head_wind_knots: [0, 10, 20]
+          ground_run_ft: [1015, 815, 700]
+          total_to_clear_50ft_obs_ft: [1810, 1465, 1240]
+        - gross_weight_lbs: 2300
+          head_wind_knots: [0, 10, 20]
+          ground_run_ft: [1185, 950, 815]
+          total_to_clear_50ft_obs_ft: [2140, 1735, 1465]
+    - altitude: 5000_ft
+      temperature: 41F
+      weights:
+        - gross_weight_lbs: 1700
+          head_wind_knots: [0, 10, 20]
+          ground_run_ft: [1255, 1010, 865]
+          total_to_clear_50ft_obs_ft: [2140, 1735, 1465]
+        - gross_weight_lbs: 2000
+          head_wind_knots: [0, 10, 20]
+          ground_run_ft: [1460, 1175, 1000]
+          total_to_clear_50ft_obs_ft: [2525, 2045, 1720]
+        - gross_weight_lbs: 2300
+          head_wind_knots: [0, 10, 20]
+          ground_run_ft: [1690, 1355, 1155]
+          total_to_clear_50ft_obs_ft: [3010, 2420, 2050]
+  notes:
+    - "Increase distance 10% for each 25°F above standard temperature for particular altitude."
+    - "Decrease distance 10% for each 10°F below standard temperature for particular altitude."
+    - "For operation on a dry grass runway, increase distances (ground roll and total to clear 50 ft obstacle) by 7% of the total."
